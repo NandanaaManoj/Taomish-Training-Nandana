@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 1.5vw; /* Space between boxes */
+    width: 95vw;
+    height:88vh;
+    padding: 2vw;
+    border:0.2rem black;
+    background-color: white;
+  }
+  
+  .item {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* First Row (3 Equal Boxes) */
+  .red { background-color: red; }
+  .blue { background-color: blue; }
+  .yellow { background-color: yellow; }
+  
+  /* Second Row  */
+  .green {
+    background-color: green;
+    grid-column: span 2; }
+  
+  .black {
+    background-color: black;
+  }
+  
+ 
